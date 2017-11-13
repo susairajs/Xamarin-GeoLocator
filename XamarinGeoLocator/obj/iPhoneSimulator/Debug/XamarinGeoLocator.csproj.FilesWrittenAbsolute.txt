@@ -1,0 +1,13 @@
+/Users/DELPIN/Projects/XamarinGeoLocator/XamarinGeoLocator/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/DELPIN/Projects/XamarinGeoLocator/XamarinGeoLocator/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/DELPIN/Projects/XamarinGeoLocator/XamarinGeoLocator/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_PartialAppManifest.items
+/Users/DELPIN/Projects/XamarinGeoLocator/XamarinGeoLocator/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/DELPIN/Projects/XamarinGeoLocator/XamarinGeoLocator/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/
+/Users/DELPIN/Projects/XamarinGeoLocator/XamarinGeoLocator/bin/iPhoneSimulator/Debug/XamarinGeoLocator.exe.mdb
+/Users/DELPIN/Projects/XamarinGeoLocator/XamarinGeoLocator/bin/iPhoneSimulator/Debug/XamarinGeoLocator.exe
+/Users/DELPIN/Projects/XamarinGeoLocator/XamarinGeoLocator/obj/iPhoneSimulator/Debug/XamarinGeoLocator.exe
+/Users/DELPIN/Projects/XamarinGeoLocator/XamarinGeoLocator/obj/iPhoneSimulator/Debug/XamarinGeoLocator.exe.mdb
+/Users/DELPIN/Projects/XamarinGeoLocator/XamarinGeoLocator/bin/iPhoneSimulator/Debug/Plugin.Permissions.Abstractions.dll
+/Users/DELPIN/Projects/XamarinGeoLocator/XamarinGeoLocator/bin/iPhoneSimulator/Debug/Plugin.Permissions.dll
+/Users/DELPIN/Projects/XamarinGeoLocator/XamarinGeoLocator/bin/iPhoneSimulator/Debug/Plugin.Geolocator.Abstractions.dll
+/Users/DELPIN/Projects/XamarinGeoLocator/XamarinGeoLocator/bin/iPhoneSimulator/Debug/Plugin.Geolocator.dll

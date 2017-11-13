@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{CBA039A8-461D-4DC6-B290-84C0C5A5B758}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinGeoLocator/Main.storyboard">
+    <Files>
+      <File FileName="XamarinGeoLocator/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="XamarinGeoLocator/ViewController.cs" Line="24" Column="49" />
+      <File FileName="packages/Xam.Plugin.Geolocator.4.1.2/readme.txt" Line="1" Column="1" />
+      <File FileName="XamarinGeoLocator/Main.storyboard" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/DELPIN/Projects/XamarinGeoLocator/XamarinGeoLocator/ViewController.cs" relfile="XamarinGeoLocator/ViewController.cs" line="18" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.XamarinGeoLocator PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.48FC377D-BA0C-40F8-9545-BA9D7DE5EFE9" />
+</Properties>

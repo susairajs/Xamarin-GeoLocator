@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="43" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="50" y="50" width="500" height="400"/>
+                                <constraints>
+                                    <constraint id="48" firstItem="43" firstAttribute="height" constant="400"/>
+                                </constraints>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="56" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="50" y="500" width="500" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="57" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="50" y="551" width="500" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0.49803921568627452" blue="0" alpha="1"/>
+                        <constraints>
+                            <constraint id="44" firstItem="43" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30"/>
+                            <constraint id="45" firstItem="43" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30"/>
+                            <constraint id="47" firstItem="8bC-Xf-vdC" firstAttribute="trailingMargin" secondItem="43" secondAttribute="trailing" constant="30"/>
+                            <constraint id="58" firstItem="56" firstAttribute="top" secondItem="43" secondAttribute="bottom" constant="50"/>
+                            <constraint id="59" firstItem="56" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30"/>
+                            <constraint id="60" firstItem="8bC-Xf-vdC" firstAttribute="trailingMargin" secondItem="56" secondAttribute="trailing" constant="30"/>
+                            <constraint id="61" firstItem="57" firstAttribute="top" secondItem="56" secondAttribute="bottom" constant="30"/>
+                            <constraint id="62" firstItem="57" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30"/>
+                            <constraint id="63" firstItem="8bC-Xf-vdC" firstAttribute="trailingMargin" secondItem="57" secondAttribute="trailing" constant="30"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView1" destination="43" id="name-outlet-43"/>
+                        <outlet property="lblLatitude" destination="56" id="name-outlet-56"/>
+                        <outlet property="lblLongitude" destination="57" id="name-outlet-57"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+</document>
