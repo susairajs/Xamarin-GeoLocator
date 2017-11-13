@@ -18,6 +18,7 @@ namespace XamarinGeoLocator
 		{
 			base.ViewDidLoad();
 
+            //Get Location using GeoLocator
             var location = CrossGeolocator.Current;
             var position = await location.GetPositionAsync();
             CLLocationManager locationManager = new CLLocationManager();
@@ -27,7 +28,7 @@ namespace XamarinGeoLocator
 			mapView1.ZoomEnabled = true;
 			mapView1.ScrollEnabled = true;
 
-			
+			//Set location to mapview
 			CLLocationCoordinate2D mapCenter = new CLLocationCoordinate2D(position.Latitude, position.Longitude);
 			MKCoordinateRegion mapRegion = MKCoordinateRegion.FromDistance(mapCenter, 8000, 8000);
 			mapView1.CenterCoordinate = mapCenter;
@@ -37,15 +38,7 @@ namespace XamarinGeoLocator
 			lblLatitude.Text = "Latitude:"+position.Latitude.ToString();
 			lblLongitude.Text= "Longitude:"+position.Longitude.ToString();
 
-			//mapView1.DidUpdateUserLocation += (sender, e) =>
-			//{
-			//	if (mapView1.UserLocation != null)
-			//	{
-			//		CLLocationCoordinate2D coords = mapView1.UserLocation.Coordinate;
-			//		MKCoordinateSpan span = new MKCoordinateSpan(MilesToLatitudeDegrees(2), MilesToLongitudeDegrees(2, coords.Latitude));
-			//		mapView1.Region = new MKCoordinateRegion(coords, span);
-			//	}
-			//};
+			
 
 		}
 
